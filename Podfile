@@ -7,6 +7,8 @@ target 'MacCatalyst-Sample' do
 
   # Pods for MacCatalyst-Sample
   pod 'Firebase/Analytics'
+  pod 'Firebase/Database'
+
 
 
 

@@ -24,7 +24,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonDidTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oqX-cl-2kD"/>
+                                    <action selector="countButtonDidTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mYo-Fc-ano"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RE1-iU-AG0">
