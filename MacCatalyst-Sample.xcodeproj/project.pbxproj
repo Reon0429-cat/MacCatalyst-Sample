@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8A9A1E86EF191A4B293D692B /* Pods_MacCatalyst_Sample_MacCatalyst_SampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9EF3583632105B3F5AB399 /* Pods_MacCatalyst_Sample_MacCatalyst_SampleUITests.framework */; };
+		3CB5129D24B3F75A89E40AE3 /* Pods_MacCatalyst_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EF9E8160BF36FC8D581526 /* Pods_MacCatalyst_Sample.framework */; };
 		AB9F335C2728A13B008A0CDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9F335B2728A13B008A0CDD /* AppDelegate.swift */; };
 		AB9F335E2728A13B008A0CDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9F335D2728A13B008A0CDD /* SceneDelegate.swift */; };
 		AB9F33602728A13B008A0CDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9F335F2728A13B008A0CDD /* ViewController.swift */; };
@@ -18,8 +18,16 @@
 		AB9F337D2728A13C008A0CDD /* MacCatalyst_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9F337C2728A13C008A0CDD /* MacCatalyst_SampleUITests.swift */; };
 		AB9F337F2728A13C008A0CDD /* MacCatalyst_SampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9F337E2728A13C008A0CDD /* MacCatalyst_SampleUITestsLaunchTests.swift */; };
 		AB9F338D2728A766008A0CDD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB9F338C2728A766008A0CDD /* GoogleService-Info.plist */; };
+		AB9F33912728AC81008A0CDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9F335F2728A13B008A0CDD /* ViewController.swift */; };
+		AB9F33922728AC81008A0CDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9F335B2728A13B008A0CDD /* AppDelegate.swift */; };
+		AB9F33932728AC81008A0CDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9F335D2728A13B008A0CDD /* SceneDelegate.swift */; };
+		AB9F33972728AC81008A0CDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9F33662728A13C008A0CDD /* LaunchScreen.storyboard */; };
+		AB9F33982728AC81008A0CDD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB9F338C2728A766008A0CDD /* GoogleService-Info.plist */; };
+		AB9F33992728AC81008A0CDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB9F33642728A13C008A0CDD /* Assets.xcassets */; };
+		AB9F339A2728AC81008A0CDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9F33612728A13B008A0CDD /* Main.storyboard */; };
+		C3BBB11707F8C2FF3CD84D3E /* libPods-MacCatalyst-SampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E289B54C775A5BA45A043240 /* libPods-MacCatalyst-SampleTests.a */; };
 		D41C8A46E56A8DB78F4B3E85 /* Pods_MacCatalyst_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EF9E8160BF36FC8D581526 /* Pods_MacCatalyst_Sample.framework */; };
-		E965FEC56964BF046308959D /* Pods_MacCatalyst_SampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5322412E404F8FE002D33D /* Pods_MacCatalyst_SampleTests.framework */; };
+		DA88224DAD78BEE299407ABE /* libPods-MacCatalyst-SampleUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1122EBE05F19F3BF469B4DC /* libPods-MacCatalyst-SampleUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,11 +48,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1596E7237342F76C74BD5696 /* Pods-MacCatalyst-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacCatalyst-Sample.release.xcconfig"; path = "Target Support Files/Pods-MacCatalyst-Sample/Pods-MacCatalyst-Sample.release.xcconfig"; sourceTree = "<group>"; };
-		1C9135DFB856F0F8B8DA486D /* Pods-MacCatalyst-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacCatalyst-Sample.debug.xcconfig"; path = "Target Support Files/Pods-MacCatalyst-Sample/Pods-MacCatalyst-Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		1FE6ADB4F0BAB6F04CB4958C /* Pods-MacCatalyst-Sample-MacCatalyst-SampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacCatalyst-Sample-MacCatalyst-SampleUITests.release.xcconfig"; path = "Target Support Files/Pods-MacCatalyst-Sample-MacCatalyst-SampleUITests/Pods-MacCatalyst-Sample-MacCatalyst-SampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3954F55DC2ACE601799C06E5 /* Pods-MacCatalyst-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacCatalyst-Sample.release.xcconfig"; path = "Target Support Files/Pods-MacCatalyst-Sample/Pods-MacCatalyst-Sample.release.xcconfig"; sourceTree = "<group>"; };
 		4222352BCE6541014F0F8A66 /* Pods-MacCatalyst-SampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacCatalyst-SampleTests.release.xcconfig"; path = "Target Support Files/Pods-MacCatalyst-SampleTests/Pods-MacCatalyst-SampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		9A9EF3583632105B3F5AB399 /* Pods_MacCatalyst_Sample_MacCatalyst_SampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MacCatalyst_Sample_MacCatalyst_SampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F8E709C708A7C24E689BCC0 /* Pods-MacCatalyst-SampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacCatalyst-SampleUITests.release.xcconfig"; path = "Target Support Files/Pods-MacCatalyst-SampleUITests/Pods-MacCatalyst-SampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		905B96EBD6199E2381185982 /* Pods-MacCatalyst-SampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacCatalyst-SampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-MacCatalyst-SampleUITests/Pods-MacCatalyst-SampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A1122EBE05F19F3BF469B4DC /* libPods-MacCatalyst-SampleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MacCatalyst-SampleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9EF9E8160BF36FC8D581526 /* Pods_MacCatalyst_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MacCatalyst_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9F33582728A13B008A0CDD /* MacCatalyst-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MacCatalyst-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9F335B2728A13B008A0CDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,8 +70,11 @@
 		AB9F337E2728A13C008A0CDD /* MacCatalyst_SampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacCatalyst_SampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AB9F338B2728A151008A0CDD /* MacCatalyst-Sample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "MacCatalyst-Sample.entitlements"; sourceTree = "<group>"; };
 		AB9F338C2728A766008A0CDD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AB9F339F2728AC81008A0CDD /* MacCatalyst-Sample mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MacCatalyst-Sample mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB9F33A02728AC81008A0CDD /* MacCatalyst-Sample copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MacCatalyst-Sample copy-Info.plist"; path = "/Users/oonishireon/Desktop/MacCatalyst-Sample/MacCatalyst-Sample copy-Info.plist"; sourceTree = "<absolute>"; };
 		BAC093CC714E5A48300A5B00 /* Pods-MacCatalyst-Sample-MacCatalyst-SampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacCatalyst-Sample-MacCatalyst-SampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-MacCatalyst-Sample-MacCatalyst-SampleUITests/Pods-MacCatalyst-Sample-MacCatalyst-SampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		DC5322412E404F8FE002D33D /* Pods_MacCatalyst_SampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MacCatalyst_SampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0044406086F564506FC597B /* Pods-MacCatalyst-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacCatalyst-Sample.debug.xcconfig"; path = "Target Support Files/Pods-MacCatalyst-Sample/Pods-MacCatalyst-Sample.debug.xcconfig"; sourceTree = "<group>"; };
+		E289B54C775A5BA45A043240 /* libPods-MacCatalyst-SampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MacCatalyst-SampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB135A7D58193C1398478120 /* Pods-MacCatalyst-SampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacCatalyst-SampleTests.debug.xcconfig"; path = "Target Support Files/Pods-MacCatalyst-SampleTests/Pods-MacCatalyst-SampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +84,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D41C8A46E56A8DB78F4B3E85 /* Pods_MacCatalyst_Sample.framework in Frameworks */,
+				3CB5129D24B3F75A89E40AE3 /* Pods_MacCatalyst_Sample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E965FEC56964BF046308959D /* Pods_MacCatalyst_SampleTests.framework in Frameworks */,
+				C3BBB11707F8C2FF3CD84D3E /* libPods-MacCatalyst-SampleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +100,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A9A1E86EF191A4B293D692B /* Pods_MacCatalyst_Sample_MacCatalyst_SampleUITests.framework in Frameworks */,
+				DA88224DAD78BEE299407ABE /* libPods-MacCatalyst-SampleUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB9F33942728AC81008A0CDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,14 +117,15 @@
 		9CED9C15666BA02BEC419549 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1C9135DFB856F0F8B8DA486D /* Pods-MacCatalyst-Sample.debug.xcconfig */,
-				1596E7237342F76C74BD5696 /* Pods-MacCatalyst-Sample.release.xcconfig */,
 				BAC093CC714E5A48300A5B00 /* Pods-MacCatalyst-Sample-MacCatalyst-SampleUITests.debug.xcconfig */,
 				1FE6ADB4F0BAB6F04CB4958C /* Pods-MacCatalyst-Sample-MacCatalyst-SampleUITests.release.xcconfig */,
 				FB135A7D58193C1398478120 /* Pods-MacCatalyst-SampleTests.debug.xcconfig */,
 				4222352BCE6541014F0F8A66 /* Pods-MacCatalyst-SampleTests.release.xcconfig */,
+				E0044406086F564506FC597B /* Pods-MacCatalyst-Sample.debug.xcconfig */,
+				3954F55DC2ACE601799C06E5 /* Pods-MacCatalyst-Sample.release.xcconfig */,
+				905B96EBD6199E2381185982 /* Pods-MacCatalyst-SampleUITests.debug.xcconfig */,
+				4F8E709C708A7C24E689BCC0 /* Pods-MacCatalyst-SampleUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -117,6 +138,7 @@
 				AB9F33592728A13B008A0CDD /* Products */,
 				9CED9C15666BA02BEC419549 /* Pods */,
 				E75609B01174CF5956545E0B /* Frameworks */,
+				AB9F33A02728AC81008A0CDD /* MacCatalyst-Sample copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +148,7 @@
 				AB9F33582728A13B008A0CDD /* MacCatalyst-Sample.app */,
 				AB9F336E2728A13C008A0CDD /* MacCatalyst-SampleTests.xctest */,
 				AB9F33782728A13C008A0CDD /* MacCatalyst-SampleUITests.xctest */,
+				AB9F339F2728AC81008A0CDD /* MacCatalyst-Sample mac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -167,8 +190,8 @@
 			isa = PBXGroup;
 			children = (
 				A9EF9E8160BF36FC8D581526 /* Pods_MacCatalyst_Sample.framework */,
-				9A9EF3583632105B3F5AB399 /* Pods_MacCatalyst_Sample_MacCatalyst_SampleUITests.framework */,
-				DC5322412E404F8FE002D33D /* Pods_MacCatalyst_SampleTests.framework */,
+				E289B54C775A5BA45A043240 /* libPods-MacCatalyst-SampleTests.a */,
+				A1122EBE05F19F3BF469B4DC /* libPods-MacCatalyst-SampleUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -222,7 +245,6 @@
 				AB9F33742728A13C008A0CDD /* Sources */,
 				AB9F33752728A13C008A0CDD /* Frameworks */,
 				AB9F33762728A13C008A0CDD /* Resources */,
-				BDAF816F33D049EA1BF721EC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +255,23 @@
 			productName = "MacCatalyst-SampleUITests";
 			productReference = AB9F33782728A13C008A0CDD /* MacCatalyst-SampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AB9F338E2728AC81008A0CDD /* MacCatalyst-Sample mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB9F339C2728AC81008A0CDD /* Build configuration list for PBXNativeTarget "MacCatalyst-Sample mac" */;
+			buildPhases = (
+				AB9F33902728AC81008A0CDD /* Sources */,
+				AB9F33942728AC81008A0CDD /* Frameworks */,
+				AB9F33962728AC81008A0CDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MacCatalyst-Sample mac";
+			productName = "MacCatalyst-Sample";
+			productReference = AB9F339F2728AC81008A0CDD /* MacCatalyst-Sample mac.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -273,6 +312,7 @@
 				AB9F33572728A13B008A0CDD /* MacCatalyst-Sample */,
 				AB9F336D2728A13C008A0CDD /* MacCatalyst-SampleTests */,
 				AB9F33772728A13C008A0CDD /* MacCatalyst-SampleUITests */,
+				AB9F338E2728AC81008A0CDD /* MacCatalyst-Sample mac */,
 			);
 		};
 /* End PBXProject section */
@@ -300,6 +340,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB9F33962728AC81008A0CDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9F33972728AC81008A0CDD /* LaunchScreen.storyboard in Resources */,
+				AB9F33982728AC81008A0CDD /* GoogleService-Info.plist in Resources */,
+				AB9F33992728AC81008A0CDD /* Assets.xcassets in Resources */,
+				AB9F339A2728AC81008A0CDD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,7 +389,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MacCatalyst-Sample-MacCatalyst-SampleUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MacCatalyst-SampleUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -365,23 +416,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BDAF816F33D049EA1BF721EC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MacCatalyst-Sample-MacCatalyst-SampleUITests/Pods-MacCatalyst-Sample-MacCatalyst-SampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MacCatalyst-Sample-MacCatalyst-SampleUITests/Pods-MacCatalyst-Sample-MacCatalyst-SampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MacCatalyst-Sample-MacCatalyst-SampleUITests/Pods-MacCatalyst-Sample-MacCatalyst-SampleUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EE89D55D0AC2EDBF0DB33D37 /* [CP] Check Pods Manifest.lock */ = {
@@ -433,6 +467,16 @@
 			files = (
 				AB9F337D2728A13C008A0CDD /* MacCatalyst_SampleUITests.swift in Sources */,
 				AB9F337F2728A13C008A0CDD /* MacCatalyst_SampleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB9F33902728AC81008A0CDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9F33912728AC81008A0CDD /* ViewController.swift in Sources */,
+				AB9F33922728AC81008A0CDD /* AppDelegate.swift in Sources */,
+				AB9F33932728AC81008A0CDD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -589,7 +633,7 @@
 		};
 		AB9F33832728A13C008A0CDD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C9135DFB856F0F8B8DA486D /* Pods-MacCatalyst-Sample.debug.xcconfig */;
+			baseConfigurationReference = E0044406086F564506FC597B /* Pods-MacCatalyst-Sample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -620,7 +664,7 @@
 		};
 		AB9F33842728A13C008A0CDD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1596E7237342F76C74BD5696 /* Pods-MacCatalyst-Sample.release.xcconfig */;
+			baseConfigurationReference = 3954F55DC2ACE601799C06E5 /* Pods-MacCatalyst-Sample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -703,7 +747,7 @@
 		};
 		AB9F33892728A13C008A0CDD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BAC093CC714E5A48300A5B00 /* Pods-MacCatalyst-Sample-MacCatalyst-SampleUITests.debug.xcconfig */;
+			baseConfigurationReference = 905B96EBD6199E2381185982 /* Pods-MacCatalyst-SampleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -727,7 +771,7 @@
 		};
 		AB9F338A2728A13C008A0CDD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FE6ADB4F0BAB6F04CB4958C /* Pods-MacCatalyst-Sample-MacCatalyst-SampleUITests.release.xcconfig */;
+			baseConfigurationReference = 4F8E709C708A7C24E689BCC0 /* Pods-MacCatalyst-SampleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -746,6 +790,66 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "MacCatalyst-Sample";
+			};
+			name = Release;
+		};
+		AB9F339D2728AC81008A0CDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MacCatalyst-Sample/MacCatalyst-Sample.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 242KS3V77L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MacCatalyst-Sample copy-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "oonishireon.MacCatalyst-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB9F339E2728AC81008A0CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MacCatalyst-Sample/MacCatalyst-Sample.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 242KS3V77L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MacCatalyst-Sample copy-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "oonishireon.MacCatalyst-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -784,6 +888,15 @@
 			buildConfigurations = (
 				AB9F33892728A13C008A0CDD /* Debug */,
 				AB9F338A2728A13C008A0CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB9F339C2728AC81008A0CDD /* Build configuration list for PBXNativeTarget "MacCatalyst-Sample mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB9F339D2728AC81008A0CDD /* Debug */,
+				AB9F339E2728AC81008A0CDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

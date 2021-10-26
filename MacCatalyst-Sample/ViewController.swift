@@ -6,23 +6,38 @@
 //
 
 import UIKit
-import Firebase
+import FirebaseDatabase
 
-
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
     
-    @IBOutlet weak var label: UILabel!
-    @IBOutlet weak var countButton: UIButton!
-    var count = 0
+    @IBOutlet private weak var label: UILabel!
+    @IBOutlet private weak var countButton: UIButton!
+    private var count = 0
+    private var databaseRef: DatabaseReference!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.view.backgroundColor = .white
         label.text = String(count)
+        label.textColor = .black
+        
+        databaseRef = Database.database().reference()
+        databaseRef.observe(.childAdded) { snapshot in
+            if let object = snapshot.value as? [String: AnyObject],
+               let count = object["count"] as? Int {
+                self.label.text = String(count)
+            }
+        }
+        
     }
-
-    @IBAction func countButtonDidTapped(_ sender: Any) {
-        count += 1
-        label.text = String(count)
+    
+    @IBAction private func countButtonDidTapped(_ sender: Any) {
+        guard let text = label.text,
+              let count = Int(text) else { return }
+        let increasedCount = count + 1
+        let data = ["count": increasedCount]
+        databaseRef.childByAutoId().setValue(data)
     }
     
 }
