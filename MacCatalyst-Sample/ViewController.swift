@@ -6,38 +6,67 @@
 //
 
 import UIKit
-import FirebaseDatabase
+import Firebase
+import FirebaseCore
+import FirebaseFirestore
 
 final class ViewController: UIViewController {
     
     @IBOutlet private weak var label: UILabel!
     @IBOutlet private weak var countButton: UIButton!
     private var count = 0
-    private var databaseRef: DatabaseReference!
+    private let db = Firestore.firestore()
+    private var listener: ListenerRegistration?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.view.backgroundColor = .white
-        label.text = String(count)
-        label.textColor = .black
-        
-        databaseRef = Database.database().reference()
-        databaseRef.observe(.childAdded) { snapshot in
-            if let object = snapshot.value as? [String: AnyObject],
-               let count = object["count"] as? Int {
-                self.label.text = String(count)
-            }
-        }
+        attachFirestore()
+        setupUI()
         
     }
     
     @IBAction private func countButtonDidTapped(_ sender: Any) {
-        guard let text = label.text,
-              let count = Int(text) else { return }
-        let increasedCount = count + 1
-        let data = ["count": increasedCount]
-        databaseRef.childByAutoId().setValue(data)
+        db.collection("users")
+            .document("reon")
+            .getDocument { snapshot, error in
+                if let error = error {
+                    print("DEBUG_PRINT: 失敗", error.localizedDescription)
+                    return
+                }
+                print("DEBUG_PRINT: 成功", #function)
+                let count = snapshot?.data()?["count"] as! Int
+                self.label.text = String(count)
+            }
+    }
+    
+    private func setupUI() {
+        db.collection("users")
+            .document("reon")
+            .getDocument { snapshot, error in
+                if let error = error {
+                    print("DEBUG_PRINT: Firestoreの取得に失敗", error.localizedDescription)
+                    return
+                }
+                let count = snapshot?.data()?["count"] as! Int
+                self.label.text = String(count)
+            }
+        self.view.backgroundColor = .white
+        label.textColor = .black
+    }
+    
+    private func attachFirestore() {
+        listener = db.collection("users")
+            .document("reon")
+            .addSnapshotListener { snapshot, error in
+                if let error = error {
+                    print("DEBUG_PRINT: ", error.localizedDescription)
+                    return
+                }
+                print("DEBUG_PRINT: 成功", #function)
+                let count = snapshot?.data()?["count"] as! Int
+                self.label.text = String(count)
+            }
     }
     
 }
