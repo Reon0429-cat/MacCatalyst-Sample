@@ -10,6 +10,25 @@ import Firebase
 import FirebaseCore
 import FirebaseFirestore
 
+extension UIViewController {
+    
+    var isMacCatalyst: Bool {
+#if targetEnvironment(macCatalyst)
+        return true
+#else
+        return false
+#endif
+    }
+    
+}
+
+//// usage
+//if isMacCatalyst {
+//    // mac layout
+//} else {
+//    // iOS layout
+//}
+
 final class ViewController: UIViewController {
     
     @IBOutlet private weak var label: UILabel!

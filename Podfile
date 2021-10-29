@@ -9,6 +9,7 @@ target 'MacCatalyst-Sample' do
   pod 'Firebase/Database'
   pod 'Firebase/Firestore'
   pod 'Firebase/Core'
+  pod 'SideMenu'
 end
 
 catalyst_configuration do

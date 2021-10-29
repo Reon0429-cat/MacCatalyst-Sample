@@ -25,6 +25,8 @@
 		AB9F33982728AC81008A0CDD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB9F338C2728A766008A0CDD /* GoogleService-Info.plist */; };
 		AB9F33992728AC81008A0CDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB9F33642728A13C008A0CDD /* Assets.xcassets */; };
 		AB9F339A2728AC81008A0CDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9F33612728A13B008A0CDD /* Main.storyboard */; };
+		ABF58151272C3EF80086D60E /* SideMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF58150272C3EF80086D60E /* SideMenu.storyboard */; };
+		ABF58153272C3F060086D60E /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF58152272C3F060086D60E /* SideMenuViewController.swift */; };
 		C3BBB11707F8C2FF3CD84D3E /* libPods-MacCatalyst-SampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E289B54C775A5BA45A043240 /* libPods-MacCatalyst-SampleTests.a */; };
 		D41C8A46E56A8DB78F4B3E85 /* Pods_MacCatalyst_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EF9E8160BF36FC8D581526 /* Pods_MacCatalyst_Sample.framework */; };
 		DA88224DAD78BEE299407ABE /* libPods-MacCatalyst-SampleUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1122EBE05F19F3BF469B4DC /* libPods-MacCatalyst-SampleUITests.a */; };
@@ -72,6 +74,8 @@
 		AB9F338C2728A766008A0CDD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AB9F339F2728AC81008A0CDD /* MacCatalyst-Sample mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MacCatalyst-Sample mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9F33A02728AC81008A0CDD /* MacCatalyst-Sample copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MacCatalyst-Sample copy-Info.plist"; path = "/Users/oonishireon/Desktop/MacCatalyst-Sample/MacCatalyst-Sample copy-Info.plist"; sourceTree = "<absolute>"; };
+		ABF58150272C3EF80086D60E /* SideMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SideMenu.storyboard; sourceTree = "<group>"; };
+		ABF58152272C3F060086D60E /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
 		BAC093CC714E5A48300A5B00 /* Pods-MacCatalyst-Sample-MacCatalyst-SampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacCatalyst-Sample-MacCatalyst-SampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-MacCatalyst-Sample-MacCatalyst-SampleUITests/Pods-MacCatalyst-Sample-MacCatalyst-SampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E0044406086F564506FC597B /* Pods-MacCatalyst-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacCatalyst-Sample.debug.xcconfig"; path = "Target Support Files/Pods-MacCatalyst-Sample/Pods-MacCatalyst-Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		E289B54C775A5BA45A043240 /* libPods-MacCatalyst-SampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MacCatalyst-SampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -165,6 +169,8 @@
 				AB9F33662728A13C008A0CDD /* LaunchScreen.storyboard */,
 				AB9F33692728A13C008A0CDD /* Info.plist */,
 				AB9F338C2728A766008A0CDD /* GoogleService-Info.plist */,
+				ABF58150272C3EF80086D60E /* SideMenu.storyboard */,
+				ABF58152272C3F060086D60E /* SideMenuViewController.swift */,
 			);
 			path = "MacCatalyst-Sample";
 			sourceTree = "<group>";
@@ -323,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB9F33682728A13C008A0CDD /* LaunchScreen.storyboard in Resources */,
+				ABF58151272C3EF80086D60E /* SideMenu.storyboard in Resources */,
 				AB9F338D2728A766008A0CDD /* GoogleService-Info.plist in Resources */,
 				AB9F33652728A13C008A0CDD /* Assets.xcassets in Resources */,
 				AB9F33632728A13B008A0CDD /* Main.storyboard in Resources */,
@@ -447,6 +454,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABF58153272C3F060086D60E /* SideMenuViewController.swift in Sources */,
 				AB9F33602728A13B008A0CDD /* ViewController.swift in Sources */,
 				AB9F335C2728A13B008A0CDD /* AppDelegate.swift in Sources */,
 				AB9F335E2728A13B008A0CDD /* SceneDelegate.swift in Sources */,
